@@ -5,3 +5,7 @@
 - Versi kernel minimal 3.10 atau lebih tinggi. Untuk mengecek versi kernel. Jalankan perintah “uname -r” dari terminal
 
 Jika versi kernel kurang dari 3.10, upgrade kernel terlebih dahulu dengan menjalankan perintah ini
+```
+    apt-get update
+    apt-get dist-upgrade –y
+```
