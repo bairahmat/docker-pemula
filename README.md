@@ -33,3 +33,7 @@ Install Docker engine dengan menjalankan perintah berikut
 ```
 apt-get install docker-engine
 ```
+Docker harusnya mulai secara otomatis setelah penginstalan selesai. Kita dapat cek service docker dengan menjalankan perintah:
+```
+service docker status
+```
