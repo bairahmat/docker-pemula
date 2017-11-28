@@ -29,3 +29,7 @@ Jalankan apt-get update untuk meng update index paket ubuntu
 ```
 apt-get update -y
 ```
+Install Docker engine dengan menjalankan perintah berikut
+```
+apt-get install docker-engine
+```
