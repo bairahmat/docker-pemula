@@ -37,3 +37,7 @@ Docker harusnya mulai secara otomatis setelah penginstalan selesai. Kita dapat c
 ```
 service docker status
 ```
+jika service docker tidak start otomatis, kita dapat menjalankannya manual dengan menjalankan perintah:
+```
+service docker start
+```
