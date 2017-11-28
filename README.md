@@ -6,6 +6,6 @@
 
 Jika versi kernel kurang dari 3.10, upgrade kernel terlebih dahulu dengan menjalankan perintah ini
 ```
-    apt-get update
-    apt-get dist-upgrade –y
+apt-get update
+apt-get dist-upgrade –y
 ```
