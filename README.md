@@ -13,3 +13,7 @@ Untuk memastikan auft storage driver didukung oleh docker, install linux-image-e
 ```
 apt-get install linux-image-extra-$(uname -r)
 ```
+Atur sumber APT ubuntu anda agar bekerja dengan metode https dan sertifikat CA. Install dengan menjalankan perintah di bawah ini:
+```
+apt-get install apt-transport-https ca-certificates
+```
