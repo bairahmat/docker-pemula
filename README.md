@@ -26,6 +26,10 @@ Tambahkan repository Docker ke sumber APT Ubuntu dengan menjalankan perintah di 
 ```
 echo “deb https://apt.dockerproject.org/repo ubuntu-trusty main” | sudo tee /etc/apt/sources.list.d/docker.list
 ```
+Untuk ubuntu 17.0 bisa coba ini :
+```
+apt-add-repository 'deb https://apt.dockerproject.org/repo ubuntu-zesty testing
+```
 Jalankan apt-get update untuk meng update index paket ubuntu
 ```
 apt-get update -y
@@ -48,7 +52,7 @@ service docker start
 Untuk mencari image Docker yang tersedia, gunakan perintah "docker search". 
 Misalnya, untuk mencari image yang tersedia untuk Ubuntu, gunakan perintah : 
 ```
-docker search ubuntu
+docker search images
 ```
 ![docker search](img/search-image-docker.png)
 
