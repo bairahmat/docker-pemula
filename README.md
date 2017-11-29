@@ -42,3 +42,7 @@ jika service docker tidak start otomatis, kita dapat menjalankannya manual denga
 service docker start
 ```
 ### Bagaimana cara kerja dengan Docker
+Untuk mencari images Docker yang tersedia, gunakan perintah "docker search". 
+Misalnya, untuk mencari image yang tersedia untuk Ubuntu, gunakan perintah "docker search ubuntu.
+
+
