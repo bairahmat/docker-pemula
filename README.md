@@ -28,7 +28,7 @@ echo “deb https://apt.dockerproject.org/repo ubuntu-trusty main” | sudo tee 
 ```
 Untuk ubuntu 17.0 bisa coba ini :
 ```
-apt-add-repository 'deb https://apt.dockerproject.org/repo ubuntu-zesty testing
+apt-add-repository deb https://apt.dockerproject.org/repo ubuntu-zesty testing
 ```
 Jalankan apt-get update untuk meng update index paket ubuntu
 ```
