@@ -41,3 +41,4 @@ jika service docker tidak start otomatis, kita dapat menjalankannya manual denga
 ```
 service docker start
 ```
+### Bagaimana cara bekerja dengan Docker
