@@ -48,4 +48,5 @@ Misalnya, untuk mencari image yang tersedia untuk Ubuntu, gunakan perintah :
 ```
 docker search ubuntu
 ```
+![docker search](img/search-image-docker.png)
 
