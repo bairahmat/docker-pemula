@@ -11,6 +11,7 @@ Docker adalah sebuah aplikasi yang bersifat open source yang berfungsi sebagai w
 ![uname -r](img/instal-docker-1.png)
 
 Jika versi kernel kurang dari 3.10, upgrade kernel terlebih dahulu dengan cara :
+
 Saya hanya saranin untuk repository index paket, kita pakai repo lokal aja !
 
 Repo Lokal cek Disini ![Repo Lokal Debian 9](https://github.com/bairahmat/docker-pemula/blob/master/repo-lokal.md)
