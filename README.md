@@ -13,6 +13,8 @@ Jika versi kernel kurang dari 3.10, upgrade kernel terlebih dahulu dengan cara :
 Menambahkan repo lokal di sources.list 
 
 ```
+nano /etc/apt/sources.list
+
 deb http://kambing.ui.ac.id/debian/ stretch main contrib non-free
 deb http://kambing.ui.ac.id/debian/ stretch-updates main contrib non-free
 deb http://kambing.ui.ac.id/debian-security/ stretch/updates main contrib non-free
@@ -27,7 +29,7 @@ apt-get install linux-image-extra-$(uname -r)
 ```
 Atur sumber APT ubuntu anda agar bekerja dengan metode https dan sertifikat CA. Install dengan menjalankan perintah di bawah ini:
 ```
-apt-get install apt-transport-https ca-certificates
+apt-get install apt-transport-https ca-certificates dirmngr 
 ```
 Tambahkan GPG key repository docker untuk verifikasi
 ```
