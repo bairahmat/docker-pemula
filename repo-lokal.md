@@ -6,5 +6,4 @@ Repository adalah suatu media kumpulan penyimapanan software linux yang dapat di
 deb http://kambing.ui.ac.id/debian/ stretch main contrib non-free
 deb http://kambing.ui.ac.id/debian/ stretch-updates main contrib non-free
 deb http://kambing.ui.ac.id/debian-security/ stretch/updates main contrib non-free
-EOF
 ```
