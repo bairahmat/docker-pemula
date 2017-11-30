@@ -33,3 +33,13 @@ Contoh Output :
 ```
 portainer/portainer latest ec91653336d4 7 days ago 9.132 MB
 ```
+
+Seperti yang kita lihat dalam contoh output, ukuran Portainer kurang dari 10 MB, sangat kecil sehingga kita mengkonsumsi lebih banyak penggunaaan RAM dan ruang HDD.
+
+sekarang Portainer sudah dalam sistem Debian lokal kita. Jalankan portainer menggunakan perintah:
+```
+sudo docker run --restart=always -d -p 9000:82 -v /var/run/docker.sock:/var/run/docker.sock portainer/portainer
+```
+Sekarang, Portainer sudah berjalan!  Untuk mengakses portainer, buka browser WEB kita dan masukkan alamat http: // localhost: 82 / atau http: // IP_ADDRESS: 82 /. kemudian silahkan setup password untuk user admin.
+
+ 
