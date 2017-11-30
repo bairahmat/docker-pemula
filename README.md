@@ -3,13 +3,20 @@ Docker adalah sebuah aplikasi yang bersifat open source yang berfungsi sebagai w
 
 ![Docker](https://ipurwae.id/wp-content/uploads/2016/12/apa-itu-docker-dan-bagaimana-cara-menggunakanya.png)
 
-### Install Docker di Server Ubuntu
+### Install Docker di Server Debian 9
 #### Prasyarat
 - Sebuah virtual machine atau server yang yang terinstal system operasi ubuntu 64bit. Untuk catatan 32bit tidak mendukutng
 - Versi kernel minimal 3.10 atau lebih tinggi. Untuk mengecek versi kernel. Jalankan perintah “uname -r” dari terminal
 ![uname -r](img/instal-docker-1.png)
 
-Jika versi kernel kurang dari 3.10, upgrade kernel terlebih dahulu dengan menjalankan perintah ini
+Jika versi kernel kurang dari 3.10, upgrade kernel terlebih dahulu dengan cara :
+Menambahkan repo lokal di sources.list 
+
+```
+deb http://kambing.ui.ac.id/debian/ stretch main contrib non-free
+deb http://kambing.ui.ac.id/debian/ stretch-updates main contrib non-free
+deb http://kambing.ui.ac.id/debian-security/ stretch/updates main contrib non-free
+```
 ```
 apt-get update
 apt-get dist-upgrade –y
