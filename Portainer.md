@@ -34,7 +34,7 @@ Contoh Output :
 portainer/portainer latest ec91653336d4 7 days ago 9.132 MB
 ```
 
-Seperti yang kita lihat dalam contoh output, ukuran Portainer kurang dari 10 MB, sangat kecil sehingga kita mengkonsumsi lebih banyak penggunaaan RAM dan ruang HDD.
+Seperti yang kita lihat dalam contoh output, ukuran Portainer kurang dari 10 MB, sangat kecil sehingga kita mengkonsumsi lebih sedikit penggunaaan RAM dan ruang HDD.
 
 sekarang Portainer sudah dalam sistem Debian lokal kita. Jalankan portainer menggunakan perintah:
 ```
