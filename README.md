@@ -1,5 +1,8 @@
 ## Install Docker 
-### Docker di Server Ubuntu
+Docker adalah sebuah aplikasi yang bersifat open source yang berfungsi sebagai wadah/container untuk mengepak/memasukkan sebuah software secara lengkap beserta semua hal lainnya yang dibutuhkan oleh software tersebut dapat berfungsi
+![Docker](https://www.google.co.id/url?sa=i&rct=j&q=&esrc=s&source=imgres&cd=&cad=rja&uact=8&ved=0ahUKEwihvpm68OXXAhUKRY8KHQ_EBwQQjRwIBw&url=https%3A%2F%2Fipurwae.id%2Fapa-itu-docker-dan-bagaimana-cara-menggunakanya&psig=AOvVaw1Gt-wCx3HLRFQqX-rYpEtt&ust=1512116872907749)
+
+### Install Docker di Server Ubuntu
 #### Prasyarat
 - Sebuah virtual machine atau server yang yang terinstal system operasi ubuntu 64bit. Untuk catatan 32bit tidak mendukutng
 - Versi kernel minimal 3.10 atau lebih tinggi. Untuk mengecek versi kernel. Jalankan perintah “uname -r” dari terminal
