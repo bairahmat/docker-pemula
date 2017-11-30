@@ -11,7 +11,7 @@ Docker adalah sebuah aplikasi yang bersifat open source yang berfungsi sebagai w
 ![uname -r](img/instal-docker-1.png)
 
 Jika versi kernel kurang dari 3.10, upgrade kernel terlebih dahulu dengan cara :
-Menambahkan repo lokal di sources.list 
+Menambahkan repo lokal (options) di sources.list 
 
 ```
 nano /etc/apt/sources.list
@@ -20,6 +20,8 @@ deb http://kambing.ui.ac.id/debian/ stretch main contrib non-free
 deb http://kambing.ui.ac.id/debian/ stretch-updates main contrib non-free
 deb http://kambing.ui.ac.id/debian-security/ stretch/updates main contrib non-free
 ```
+Jalankan apt-get update untuk meng update index paket
+
 ```
 apt-get update
 apt-get dist-upgrade –y
@@ -40,11 +42,7 @@ Tambahkan repository Docker ke sumber APT Ubuntu dengan menjalankan perintah di 
 ```
 echo “deb https://apt.dockerproject.org/repo ubuntu-trusty main” | sudo tee /etc/apt/sources.list.d/docker.list
 ```
-Untuk ubuntu 17.0 bisa coba ini :
-```
-apt-add-repository deb https://apt.dockerproject.org/repo ubuntu-zesty testing
-```
-Jalankan apt-get update untuk meng update index paket ubuntu
+Jalankan apt-get update untuk meng update index paket
 ```
 apt-get update -y
 ```
