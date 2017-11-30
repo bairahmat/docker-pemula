@@ -7,3 +7,9 @@ deb http://kambing.ui.ac.id/debian/ stretch main contrib non-free
 deb http://kambing.ui.ac.id/debian/ stretch-updates main contrib non-free
 deb http://kambing.ui.ac.id/debian-security/ stretch/updates main contrib non-free
 ```
+#### Datautama
+```
+deb http://kartolo.sby.datautama.net.id/debian/ stretch main contrib non-free
+deb http://kartolo.sby.datautama.net.id/debian/ stretch-updates main contrib non-free
+deb http://kartolo.sby.datautama.net.id/debian-security/ stretch/updates main contrib non-free
+```
