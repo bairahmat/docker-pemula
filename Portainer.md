@@ -38,8 +38,10 @@ Seperti yang kita lihat dalam contoh output, ukuran Portainer kurang dari 10 MB,
 
 sekarang Portainer sudah dalam sistem Debian lokal kita. Jalankan portainer menggunakan perintah:
 ```
-sudo docker run --restart=always -d -p 9000:82 -v /var/run/docker.sock:/var/run/docker.sock portainer/portainer
+sudo docker run --restart=always -d -p 80:9000 -v /var/run/docker.sock:/var/run/docker.sock portainer/portainer
 ```
-Sekarang, Portainer sudah berjalan!  Untuk mengakses portainer, buka browser WEB kita dan masukkan alamat http: // localhost: 82 / atau http: // IP_ADDRESS: 82 /. kemudian silahkan setup password untuk user admin.
+Ket : port 80 => adalah port Ouput dan Port 9000 => adalah Port Asal
+
+Sekarang, Portainer sudah berjalan!  Untuk mengakses portainer, buka browser WEB kita dan masukkan alamat http: // localhost/ atau http: // IP_ADDRESS/. kemudian silahkan setup password untuk user admin.
 
  
