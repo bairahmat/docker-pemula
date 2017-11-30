@@ -11,7 +11,7 @@ Docker adalah sebuah aplikasi yang bersifat open source yang berfungsi sebagai w
 ![uname -r](img/instal-docker-1.png)
 
 Jika versi kernel kurang dari 3.10, upgrade kernel terlebih dahulu dengan cara :
-Menambahkan repo lokal (options) di sources.list 
+Menambahkan repo lokal (options) di sources.list. Repo Lokal cek ![Disini](https://github.com/bairahmat/docker-pemula/blob/master/repo-lokal.md)
 
 ```
 nano /etc/apt/sources.list
