@@ -1,5 +1,6 @@
 ## Install Docker 
-Docker adalah sebuah aplikasi yang bersifat open source yang berfungsi sebagai wadah/container untuk mengepak/memasukkan sebuah software secara lengkap beserta semua hal lainnya yang dibutuhkan oleh software tersebut dapat berfungsi
+Docker adalah sebuah aplikasi yang bersifat open source yang berfungsi sebagai wadah/container untuk mengepak/memasukkan sebuah software secara lengkap beserta semua hal lainnya yang dibutuhkan oleh software tersebut dapat berfungsi.
+
 ![Docker](https://ipurwae.id/wp-content/uploads/2016/12/apa-itu-docker-dan-bagaimana-cara-menggunakanya.png)
 
 ### Install Docker di Server Ubuntu
