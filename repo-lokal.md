@@ -1,9 +1,7 @@
-#### Debian 9 Kambing UI
-```
-mv /etc/apt/sources.list /etc/apt/sources.list.bak 
-touch /etc/apt/sources.list chmod 777 /etc/apt/sources.list 
-cat <<EOF >>/etc/apt/sources.list deb 
-```
+## Repository Lokal Debian 9
+Repository adalah suatu media kumpulan penyimapanan software linux yang dapat di install melalui internet, di windows kita dapat melakukan instalasi dengan cara klik setup dan next sampai finish, namun berbeda pada linux biasanya disediakan melalui repository.
+
+#### Kambing UI
 ```
 deb http://kambing.ui.ac.id/debian/ stretch main contrib non-free
 deb http://kambing.ui.ac.id/debian/ stretch-updates main contrib non-free
